@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        int age = 45;
+        boolean adult = (age >= 18 && age <= 60);
+        boolean senior = (60 >= age);
+        
+        System.out.println("Man is Adult : "+ adult);
+        System.out.println("Man is Senior : "+ senior);
+        
+    }
+}
