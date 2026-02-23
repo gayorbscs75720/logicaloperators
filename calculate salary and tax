@@ -1,0 +1,15 @@
+class Main {
+    public static void main(String[] args) {
+        double salary = 80000;
+        double tax = 10;
+        double taxtotal =(salary * tax) / 100;
+        double netsalary = ( salary - taxtotal);
+        System.out.println("Salary :"+ salary);
+        System.out.println("Total Tax on Salar : :"+taxtotal );
+        System.out.println("Net Salary In Acc :"+ netsalary );
+        
+        
+        boolean above = ( netsalary > 50000);
+        System.out.println("Salary is above :"+ above);
+    }
+}
