@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+      int distance = 500;
+      int time = 5;
+      
+      double speed =(distance / time);
+        System.out.println("Speed  : " + speed);
+        boolean above = (speed < 80);
+        System.out.println("Speed  : " + above);
+        
+    }
+}
