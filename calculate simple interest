@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        double p = 30.14;
+        double r = 400.8;
+        double t = 56.89;
+        
+        double SI = (p*r*t) / 100;
+        
+        System.out.println("Intrest of si : "+ SI);
+        
+       
+
+        
+        
+    }
+}
