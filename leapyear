@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        int year1 = 2024;
+        int year2  = 2028;
+        
+        boolean leap1 = (year1 % 4 == 0);
+        boolean leap2 = (year2 % 4 == 0);
+        boolean leapboth =(year1 % 4 == 0 && year2 % 4 == 1);
+        System.out.println(" Both Leap : "+ leapboth);
+    }
+}
