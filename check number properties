@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+      int number = 40;
+      boolean even = (number %  2 == 0); //ture
+      boolean divisible5 = (number % 5 == 0);
+      boolean divisibleboth = (number % 2 ==0 && number % 5 == 0);
+      
+        System.out.println("Number : " + number);
+          System.out.println("Even Number : " + even);
+          System.out.println("divisible 5 : " + divisible5);
+          System.out.println("Divisible By Both : " +divisibleboth);
+    }
+}
