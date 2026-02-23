@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        boolean usermatch = true;
+        boolean passwordmatch = true ;
+        boolean loginin =(usermatch && passwordmatch );
+        
+        System.out.println("Login Succesfully : " + loginin);
+    }
+}
