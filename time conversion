@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        int  minute = 100;
+        int  second = 120;
+        double totalminutes = second / 60.0 ; 
+        System.out.println("Total minute is : "+ totalminutes);
+        
+    }
+}
