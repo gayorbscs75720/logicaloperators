@@ -1,0 +1,8 @@
+class Main {
+    public static void main(String[] args) {
+        int temperature = 30;
+        boolean safe = (temperature >= 20) && (temperature <= 35);
+        System.out.println("Temperature is :"+ temperature);
+        System.out.println("Safe Range Is :"+ safe);
+    }
+}
