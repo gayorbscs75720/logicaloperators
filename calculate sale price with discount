@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        double purchaseamount = 12000;
+        double discount = 10;
+        double discountamount =( purchaseamount * discount) / 100;
+        double Saleprice = (purchaseamount - discountamount);
+        System.out.println("Purchase Amount Is :"+ purchaseamount);
+        System.out.println("Discount Amount Is :"+ discountamount);
+        System.out.println("Sale Price Is :"+ Saleprice);
+        
+        boolean Priceexceed = (Saleprice > 10000);
+        System.out.println("Exceed Price Is :"+ Priceexceed);
+    }
+}
