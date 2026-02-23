@@ -1,0 +1,19 @@
+class Main {
+    public static void main(String[] args) {
+        int totalmarks = 500;
+        int phy = 87;
+        int bio = 90;
+        int sci = 50;
+        int eng = 48;
+        int math = 67;
+        
+        double obtainedmarks =(phy+bio+sci+eng+math);
+        double percentage =(obtainedmarks / totalmarks) * 100;
+        System.out.println("Marks : "+obtainedmarks);
+        System.out.println("Percentage : "+percentage);
+        
+        boolean pass = percentage >= 50;
+        System.out.println("Pass : "+pass);
+
+    }
+}
